@@ -1,0 +1,83 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(to right, #04b1f5, #04f3d3);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 2rem;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #6a11cb;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.project, .education, .achievements, .experience, .coding-profiles {
+    margin-bottom: 15px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+button {
+    background: #2a44f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: #f2e9e4;
+    color: #4a4e69;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
